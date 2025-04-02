@@ -6,4 +6,6 @@ export default defineConfig({
     enabled: false,
   },
   integrations: [tutorialkit()],
+  site: 'https://shinnopo.github.io',
+  base: 'vue-tutorial',
 });
